@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="js/mySwiper.css">
+</head>
+
+<body>
+    <div class="banner">
+        <ul class="swiper">
+
+        </ul>
+    </div>
+
+
+    <script src="js/mySwiper.js"></script>
+    <script>
+        // var swipe=document.querySelectorAll('.banner')
+        // console.log(swipe)
+        //若之后再添加  banner 的   DOM ,swipe选不中,只能选择命名之前已经存在的
+        // 第一版:  面向对象实现完整轮播功能
+        // 第二版: 要求给定容器比如banner选择器 ,子类元素全部根据imgs[]的图片动态生成
+        // 一行代码开启轮播
+        // new Swiper('.banner .swiper');
+        new Swiper('.swiper', ['imgs/m1.jpg', 'imgs/m2.jpg', 'imgs/m3.jpg', 'imgs/m4.jpg']);
+
+       
+    </script>
+
+</body>
+
+</html>
